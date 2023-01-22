@@ -32,6 +32,7 @@
     @if $logo-grayout {
       filter: grayscale(100%);
       -webkit-filter: grayscale(100%);
+      filter: invert(50%);
     }
   }
   #nav {
